@@ -28,7 +28,7 @@ The analysis aims to answer the following questions:
 * Data Visualization
 * Business Intelligence & Analytics
 
-
+!(https://github.com/faridah-portfolio/customer-churn/blob/abba32b833f3cf131d5d1232cddd623612356928/farida-customer%20churn%20analysis%206_22_2026%209_28_24%20AM.png)
 
 ## Dashboard Features
 
