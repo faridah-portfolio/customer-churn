@@ -28,7 +28,7 @@ The analysis aims to answer the following questions:
 * Data Visualization
 * Business Intelligence & Analytics
 
-!(https://github.com/faridah-portfolio/customer-churn/blob/abba32b833f3cf131d5d1232cddd623612356928/farida-customer%20churn%20analysis%206_22_2026%209_28_24%20AM.png)
+![telecom costumer churn analysis dashboard](https://github.com/faridah-portfolio/customer-churn/blob/abba32b833f3cf131d5d1232cddd623612356928/farida-customer%20churn%20analysis%206_22_2026%209_28_24%20AM.png)
 
 ## Dashboard Features
 
@@ -89,18 +89,4 @@ Examines whether customers classified as high-value are being lost and highlight
 
 ---
 
-## Dashboard Preview
 
-The dashboard includes:
-
-* Customer Status Distribution
-* Customer Profile Comparison
-* Key Drivers of Churn
-* High-Value Customer Analysis
-* Customer Churn KPIs
-
----
-
-## Conclusion
-
-This project demonstrates how Power BI can be used to transform customer data into actionable business insights. By identifying churn patterns and customer behavior, telecom companies can implement data-driven strategies to improve customer retention, increase customer lifetime value, and reduce revenue loss.
