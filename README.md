@@ -1,92 +1,162 @@
+# 📡 Telecom Customer Churn Analysis
 
-# Telecom Customer Churn Analysis Dashboard
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![DAX](https://img.shields.io/badge/DAX-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
+![Dataset](https://img.shields.io/badge/Dataset-IBM%20Telco-blueviolet?style=for-the-badge)
 
-## Project Overview
-
-This project analyzes customer churn in a telecom company using Power BI. The objective is to identify customer retention patterns, understand the characteristics of customers who joined, stayed, or churned, and uncover the key factors driving customer attrition.
-
-The dashboard provides business insights that can help management improve customer retention strategies and reduce churn.
-
----
-
-## Business Questions
-
-The analysis aims to answer the following questions:
-
-1. How many customers joined the company during the period?
-2. What are the characteristics of customers who joined, stayed, and churned?
-3. What are the key drivers of customer churn?
-4. Is the company losing high-value customers?
-5. What strategies can be implemented to improve customer retention?
+> Identifying the *why* behind customer churn — and turning insight into retention strategy.
 
 ---
 
-## Tools Used
+## 📸 Dashboard Preview
 
-* Power BI Desktop
-* DAX (Data Analysis Expressions)
-* Data Visualization
-* Business Intelligence & Analytics
+![Telecom Customer Churn Analysis Dashboard](./farida-customer_churn_analysis_6_22_2026_9_28_24_AM.png)
 
-![telecom costumer churn analysis dashboard](https://github.com/faridah-portfolio/customer-churn/blob/abba32b833f3cf131d5d1232cddd623612356928/farida-customer%20churn%20analysis%206_22_2026%209_28_24%20AM.png)
+---
 
-## Dashboard Features
+## 📌 Project Overview
+
+Customer churn is one of the most costly challenges in the telecom industry. This end-to-end Power BI project analyzes the IBM Telco-style dataset (7,043 customers) to surface the behavioural and contractual patterns that separate customers who stay from those who leave.
+
+The dashboard is designed for business stakeholders who need clear, actionable answers — not just numbers — to improve retention and protect revenue.
+
+---
+
+## ❓ Business Questions
+
+| # | Question |
+|---|---|
+| 1 | How many customers joined the company during the analysis period? |
+| 2 | What distinguishes customers who joined, stayed, and churned? |
+| 3 | What are the strongest predictors of churn? |
+| 4 | Is the company disproportionately losing high-value customers? |
+| 5 | What targeted strategies can reduce churn and improve retention? |
+
+---
+
+## 🔢 Key Metrics at a Glance
+
+| Metric | Value |
+|---|---|
+| Churn Rate | **26.54%** |
+| Joined Customers | **454** |
+| Stayed Customers | **4,720 (67.02%)** |
+| Churned Customers | **1,870 (26.54%)** |
+
+---
+
+## 📊 Dashboard Features
 
 ### KPI Cards
+Real-time headline figures — Churn Rate and Joined Customers — for immediate business context.
 
-* New Customers Acquired
-* Customer Churn Rate
+### Customer Status Distribution
+Stacked bar chart breaking down Joined, Stayed, and Churned customers by contract type (Month-to-Month, One Year, Two Year).
 
-### Customer Status Overview
+### Customer Status Donut Chart
+Visual proportion of all three customer segments at a glance.
 
-Provides a breakdown of customers who:
+### Customer Profile Comparison Table
+Side-by-side comparison of Churned, Joined, and Stayed customers across:
+- Average Age
+- Average Monthly Charge
+- Average Revenue
+- Average Tenure (months)
 
-* Joined
-* Stayed
-* Churned
+### Key Drivers of Customer Churn *(AI-powered)*
+Power BI's Key Influencers visual identifies and ranks the factors most strongly associated with churn — with likelihood multipliers:
 
-### Customer Profile Comparison
+| Driver | Churn Likelihood Increase |
+|---|---|
+| Contract is Month-to-Month | **7.35×** |
+| Online Security is No | **3.63×** |
+| Premium Tech Support is No | **3.51×** |
+| Internet Type is Fiber Optic | **2.58×** |
+| Monthly Charge $68.8–$106.75 | **2.32×** |
+| Offer is Offer E | **2.29×** |
+| Payment Method is Bank Withdrawal | **1.97×** |
+| Age > 64 | **1.77×** |
 
-Compares customer groups based on:
-
-* Average Age
-* Average Monthly Charge
-* Average Revenue
-* Average Tenure
-
-### Key Drivers of Customer Churn
-
-Identifies the factors most strongly associated with customer churn, including:
-
-* Month-to-Month Contracts
-* Lack of Online Security
-* Lack of Premium Technical Support
-* Internet Service Type
+### Key Customer Metrics by Status
+Grouped bar chart comparing Avg Age, Avg Monthly Charge, Avg Revenue, and Avg Tenure across all three customer segments.
 
 ### High-Value Customer Retention Analysis
-
-Examines whether customers classified as high-value are being lost and highlights retention risks.
-
----
-
-## Key Insights
-
-* A total of 454 customers joined during the analysis period.
-* Churned customers tend to have shorter tenure compared to retained customers.
-* Customers on month-to-month contracts are significantly more likely to churn.
-* Lack of online security and premium technical support increases churn risk.
-* The company is losing a portion of its high-value customers, creating revenue retention challenges.
+Examines churn penetration among high-value vs regular customers, revealing where revenue risk is most concentrated.
 
 ---
 
-## Business Recommendations
+## 💡 Key Insights
 
-* Encourage customers to move from month-to-month contracts to longer-term plans.
-* Improve customer support and technical assistance services.
-* Offer loyalty incentives to high-value customers.
-* Develop targeted retention campaigns for customers identified as high churn risks.
-* Address competitor-related churn through improved pricing and service offerings.
+- **26.54% of customers churned** — more than 1 in 4 customers, a significant retention risk.
+- **Month-to-month contracts are the #1 churn driver**, making customers 7.35× more likely to leave than those on annual or biennial plans.
+- **Churned customers had the shortest average tenure** (17.98 months vs 41.04 for Stayed), confirming that early intervention is critical.
+- **Churned customers paid the highest average monthly charge** ($73.35), yet generated the lowest average revenue — suggesting they left before long-term value could be captured.
+- **High-value customers are also churning**, creating a compounding revenue retention problem that goes beyond volume.
+- **Absence of security and support services** (Online Security, Premium Tech Support) significantly elevates churn risk, pointing to unmet service expectations.
 
 ---
 
+## ✅ Business Recommendations
 
+1. **Convert month-to-month customers** — Offer incentives (discounts, bundled services) to migrate at-risk customers onto 1- or 2-year contracts.
+2. **Bundle security and support** — Make Online Security and Premium Tech Support default inclusions or low-cost add-ons, especially for fiber optic customers.
+3. **Intervene early in the customer lifecycle** — Tenure data shows churners leave within ~18 months. Trigger retention campaigns in months 6–12.
+4. **Protect high-value segments** — Assign dedicated account management or loyalty programmes to high-revenue customers showing early churn signals.
+5. **Review Offer E and Bank Withdrawal billing** — Both are statistically linked to higher churn and warrant investigation into customer satisfaction with these pathways.
+
+---
+
+## 🛠️ Tools & Techniques
+
+| Tool / Feature | Application |
+|---|---|
+| Power BI Desktop | Dashboard design and report publishing |
+| DAX | Calculated measures, KPIs, and customer segmentation |
+| Power Query | Data transformation and cleaning |
+| Key Influencers Visual | AI-driven churn driver identification |
+| IBM Telco Dataset | Source data (7,043 customer records) |
+
+---
+
+## 🗂️ Repository Structure
+
+```
+telecom-churn-analysis/
+│
+├── data/
+│   └── telecom_customer_churn.csv       # Source dataset
+│
+├── dashboard/
+│   └── Telecom_Churn_Analysis.pbix      # Power BI report file
+│
+├── assets/
+│   └── dashboard_preview.png            # Dashboard screenshot
+│
+└── README.md
+```
+
+---
+
+## 🚀 Getting Started
+
+1. Clone or download this repository.
+2. Open `Telecom_Churn_Analysis.pbix` in **Power BI Desktop**.
+3. Update the data source path to `data/telecom_customer_churn.csv` if prompted.
+4. Refresh the data model and interact with the Key Influencers visual and slicers.
+
+---
+
+## 👩‍💻 Author
+
+**Faridah Abubakar**  
+Data Analyst · Power BI Developer · Business Intelligence Specialist
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/faridah-abubakar)
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:farisoiza64@gmail.com)
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License. You are welcome to reference or adapt it for learning and portfolio purposes with attribution.
