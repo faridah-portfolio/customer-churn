@@ -11,7 +11,7 @@
 
 ## 📸 Dashboard Preview
 
-![Telecom Customer Churn Analysis Dashboard](./farida-customer_churn_analysis_6_22_2026_9_28_24_AM.png)
+![Telecom Customer Churn Analysis Dashboard](https://github.com/faridah-portfolio/customer-churn/blob/ae817dc718d59f9e037561d85fbd99a0c73ea950/farida-customer%20churn%20analysis%206_22_2026%209_28_24%20AM.png)
 
 ---
 
@@ -113,37 +113,9 @@ Examines churn penetration among high-value vs regular customers, revealing wher
 |---|---|
 | Power BI Desktop | Dashboard design and report publishing |
 | DAX | Calculated measures, KPIs, and customer segmentation |
-| Power Query | Data transformation and cleaning |
+| Power Query and Excel | Data transformation and cleaning |
 | Key Influencers Visual | AI-driven churn driver identification |
 | IBM Telco Dataset | Source data (7,043 customer records) |
-
----
-
-## 🗂️ Repository Structure
-
-```
-telecom-churn-analysis/
-│
-├── data/
-│   └── telecom_customer_churn.csv       # Source dataset
-│
-├── dashboard/
-│   └── Telecom_Churn_Analysis.pbix      # Power BI report file
-│
-├── assets/
-│   └── dashboard_preview.png            # Dashboard screenshot
-│
-└── README.md
-```
-
----
-
-## 🚀 Getting Started
-
-1. Clone or download this repository.
-2. Open `Telecom_Churn_Analysis.pbix` in **Power BI Desktop**.
-3. Update the data source path to `data/telecom_customer_churn.csv` if prompted.
-4. Refresh the data model and interact with the Key Influencers visual and slicers.
 
 ---
 
@@ -155,8 +127,4 @@ Data Analyst · Power BI Developer · Business Intelligence Specialist
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/faridah-abubakar)
 [![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:farisoiza64@gmail.com)
 
----
 
-## 📄 License
-
-This project is licensed under the MIT License. You are welcome to reference or adapt it for learning and portfolio purposes with attribution.
