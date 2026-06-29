@@ -12,6 +12,7 @@
 ## 📸 Dashboard Preview
 
 ![Telecom Customer Churn Analysis Dashboard](https://github.com/faridah-portfolio/customer-churn/blob/ae817dc718d59f9e037561d85fbd99a0c73ea950/farida-customer%20churn%20analysis%206_22_2026%209_28_24%20AM.png)
+![excel](https://github.com/faridah-portfolio/customer-churn/blob/87fabafb2101ad214097228dd36df5327dec1a7e/customer%20churn%20-%20Excel%206_28_2026%2011_34_50%20AM.png)
 
 ---
 
